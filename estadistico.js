@@ -11,7 +11,7 @@
 
 
 document.addEventListener('DOMContentLoaded', () => {
-    const API_URL = 'http://204.216.171.53:8000/estudiantes/carrera';
+    const API_URL = 'https://204.216.171.53:8000/estudiantes/carrera';
     
     fetch(API_URL)
         .then(response => response.json())
