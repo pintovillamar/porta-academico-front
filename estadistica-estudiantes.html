@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Estudiantes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Web Estudiantes</h1>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="ver-estudiantes.html">Ver Estudiantes</a></li>
+                <li><a href="estadistica-estudiantes.html">Análisis estadístico</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <h1>Análisis estadístico</h1>
+        <p>Cursos recurridos por los estudiantes</p>
+        <section>
+            <div class="pieID pie"></div>
+            <ul class="pieID legend">
+            </ul>
+        </section>
+    </main>
+
+    <script src="estadistico.js"></script>
+    <script src="configPie.js"></script>
+</body>
+</html>
