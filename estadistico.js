@@ -11,7 +11,11 @@
 
 
 document.addEventListener('DOMContentLoaded', () => {
+<<<<<<< HEAD
     const API_URL = 'http://tarea1.demon.cl/estudiantes/carrera';
+=======
+    const API_URL = 'https://204.216.171.53:8000/estudiantes/carrera';
+>>>>>>> 76390e47baab069884982dce0f70caa3b30ea613
     
     fetch(API_URL)
         .then(response => response.json())
