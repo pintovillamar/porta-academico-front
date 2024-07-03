@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Estudiantes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">Web Estudiantes</h1>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="ver-estudiantes.html">Ver Estudiantes</a></li>
+        <li><a href="estadistica-estudiantes.html">Análisis estadístico</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h2>Crear Estudiante</h2>
+    <form id="student-form" class="form-container">
+      <div class="form-group">
+        <label for="name">Nombres:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="apellido1">Apellido Paterno</label>
+        <input type="text" id="apellido1" name="apellido1" required>
+      </div>
+      <div class="form-group">
+        <label for="apellido2">Apellido Materno</label>
+        <input type="text" id="apellido2" name="apellido2" required>
+      </div>
+      <div class="form-group">
+        <label for="programa">Programa Académico</label>
+        <select id="programa" name="programa" required>
+          <option value="">Seleccione un programa</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <button type="submit">Crear</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- <script type="module" src="script.js"></script> -->
+  <script src="crear-estudiantes.js"></script>
+</body>
+</html>
