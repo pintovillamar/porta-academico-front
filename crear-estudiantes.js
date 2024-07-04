@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
       carrera_id: form.programa.value
     };
 
-    fetch('https://tarea1.demon.cl/test2', {
+    fetch('https://tarea1.demon.cl/api/crear-estudiante', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
